@@ -8,11 +8,14 @@ import { inter } from "@/app/ui/fonts";
 // General metadata for the application
 export const metadata: Metadata = {
   title: {
-    template: "%s | Acme Dashboard",
-    default: "Acme Dashboard",
+    template: "%s | S2G Energy",
+    default: "S2G Energy",
   },
-  description: "The official Next.js Learn Dashboard built with App Router.",
+  description: "S2G Energy dashboard.",
   metadataBase: new URL("https://next-learn-dashboard.vercel.sh"),
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({

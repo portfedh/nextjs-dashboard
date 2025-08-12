@@ -71,6 +71,10 @@ export default function LoginForm() {
           Iniciar sesión{" "}
           <ArrowRightIcon className="ml-auto h-5 w-5 text-gray-50" />
         </Button>
+        <br />
+        <br />
+        <p>Username: user@nextmail.com</p>
+        <p>Password: 123456</p>
         <div
           className="flex h-8 items-end space-x-1"
           aria-live="polite"
